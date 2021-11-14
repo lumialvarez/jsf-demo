@@ -34,6 +34,7 @@ public class IndexBean implements Serializable {
 
     public void add() {
         list.add(name);
+        this.name = "";
     }
 
     public void remove(String e) {
